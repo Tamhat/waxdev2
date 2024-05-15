@@ -163,6 +163,7 @@
     "@vercel/flags": "^2.3.0",
     "@vercel/toolbar": "^0.1.13",
     "@vitejs/plugin-react": "4.2.1",
+    "eslint": "^8.32.0",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-lodash": "^7.4.0",
     "happy-dom": "^13.3.8",
