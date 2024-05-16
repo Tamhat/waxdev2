@@ -3,7 +3,7 @@ const SkoofyPart = () => {
     return (
         <section className='grid place-items-center mx-auto'>
             <div className="grid  grid-cols-6 place-items-center gap-10 max-md:block  max-md:gap-2  max-md:space-y-10">
-                <div className="col-span-2 p-10 rounded-xl bg-gray-800" >
+                <div className="col-span-2 p-10 rounded-xl bg-gray-800 footer-div" >
                     <a href="" className="space-y-10">
                         <div className="flex justify-between items-center gap-10">
                             <h1 className='text-3xl'>Stake BOO</h1>
@@ -13,7 +13,7 @@ const SkoofyPart = () => {
                         <a href="" className="text-xl py-5">Stake now</a>
                     </a>
                 </div>
-                <div className="col-span-2 p-10 rounded-xl bg-gray-800" >
+                <div className="col-span-2 p-10 rounded-xl bg-gray-800 footer-div" >
                     <a href="" className="space-y-10">
                         <div className="flex justify-between items-center gap-10">
                             <h1 className='text-3xl'>Earn</h1>
@@ -23,7 +23,7 @@ const SkoofyPart = () => {
                         <a href="" className="text-xl py-5">Provide liquidity</a>
                     </a>
                 </div>
-                <div className="col-span-2 p-10 rounded-xl bg-gray-800" >
+                <div className="col-span-2 p-10 rounded-xl bg-gray-800 footer-div" >
                     <a href="" className="space-y-10">
                         <div className="flex justify-between items-center gap-10">
                             <h1 className='text-3xl'>Bridge</h1>
@@ -37,7 +37,7 @@ const SkoofyPart = () => {
             </div>
            
             <div className="max-md:mx-0 max-md:w-96">
-                <div className="flex items-start max-md:block w-[87vw]  max-md:w-full my-10  max-md:my-5 justify-between mx-20  max-md:mx-2  bg-gray-800 px-10  max-md:px-10 font-mono py-10 rounded-2xl  max-md:space-y-10  max-md:gap-10" >
+                <div className="flex items-start max-md:block w-[87vw]  max-md:w-full my-10  max-md:my-5 justify-between mx-20  max-md:mx-2   px-10  max-md:px-10 font-mono py-10 rounded-2xl  max-md:space-y-10  max-md:gap-10 footer-div" >
                     <div className="space-y-5">
                         <img src="https://spooky.fi/static/media/SpookySwapFooter.1caeda376d21e961e314e9f5ae0fefe7.svg" alt="" className="w-[200px]"/>
                         <div className="flex gap-3 items-center justify-around">
