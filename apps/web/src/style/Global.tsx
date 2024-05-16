@@ -12,6 +12,25 @@ const GlobalStyle = createGlobalStyle`
 @tailwind components;
 @tailwind utilities;
 
+.footer-div{
+  border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(130deg, rgba(255, 255, 255, 0.12) 2%, rgba(204, 204, 204, 0) 17.83%);
+    overflow: hidden;
+    /* position: fixed; */
+    /* right: 40px; */
+    /* bottom: 40px; */
+    gap: 20px;
+    /* padding: 0px 24px; */
+    /* height: 64px; */
+    /* border-radius: 64px; */
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    /* background: rgba(0, 0, 0, 0.32); */
+    backdrop-filter: blur(13.5px);
+    z-index: 99;
+}
+}
+
 .min-box{
   border:1px solid rgba(255, 255, 255, 0.14)
 }
